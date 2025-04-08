@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cloudpath IT Consulting</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fefefe;
+      color: #1c1c1c;
+    }
+    header {
+      background: linear-gradient(90deg, #FF6A3D, #8E44AD);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .logo {
+      max-width: 150px;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      margin-top: 0.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    section {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .service, .testimonial, .team-member, .case-study {
+      background: linear-gradient(135deg, #ffe0c3, #ffb3b3);
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    .testimonial {
+      background: linear-gradient(135deg, #c3f0ff, #a3d5ff);
+    }
+    .team-member {
+      background: linear-gradient(135deg, #e3ffc3, #c3f0a3);
+    }
+    .case-study {
+      background: linear-gradient(135deg, #e6c3ff, #c3a3f0);
+    }
+    .service h3, .testimonial h3, .team-member h3, .case-study h3 {
+      margin-top: 0;
+    }
+    .testimonials, .team, .case-studies {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #f2f2f2;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Cloudpath Logo" class="logo" />
+    <h1>Cloudpath IT Consulting</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#team">Team</a>
+      <a href="#case-studies">Case Studies</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="intro">
+    <h2>Delivering Excellence in IT & Software Testing</h2>
+    <p>We empower enterprises with cutting-edge IT consulting services, DevOps, cloud transformation, and robust software testing solutions tailored for today’s digital landscape.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Test Automation</h3>
+        <p>Accelerate your release cycles with scalable and maintainable automated testing frameworks.</p>
+      </div>
+      <div class="service">
+        <h3>Performance Testing</h3>
+        <p>Ensure your applications can handle real-world load and stress with expert performance assessments.</p>
+      </div>
+      <div class="service">
+        <h3>DevOps Enablement</h3>
+        <p>Streamline your development pipeline through CI/CD, infrastructure automation, and cloud-native practices.</p>
+      </div>
+      <div class="service">
+        <h3>Cloud Strategy</h3>
+        <p>Leverage cloud technologies for scalability, agility, and cost-effectiveness across your enterprise.</p>
+      </div>
+      <div class="service">
+        <h3>Quality Engineering</h3>
+        <p>Embed quality at every stage of development with a comprehensive QA strategy and governance model.</p>
+      </div>
+      <div class="service">
+        <h3>AI & Analytics Testing</h3>
+        <p>Validate machine learning models and ensure data integrity across your analytics stack.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Cloudpath IT Consulting</h2>
+    <p>At Cloudpath, we believe in simplifying IT complexities and enabling organizations to scale with confidence. Our expert consultants bring deep domain knowledge and technical excellence to every engagement, helping you stay ahead of your competition.</p>
+  </section>
+
+  <section id="team">
+    <h2>Our Team</h2>
+    <div class="team">
+      <div class="team-member">
+        <h3>Ashfaq hemani</h3>
+        <p>Founder & Principal Consultant - 15+ years of experience in QA and cloud consulting.</p>
+      </div>
+      <div class="team-member">
+        <h3>Hanoj Vajifdar</h3>
+        <p>DevOps Architect - Specialist in CI/CD automation and performance optimization.</p>
+      </div>
+      <div class="team-member">
+        <h3>Nausheen Hemani</h3>
+        <p>Test Automation Lead - Expert in Selenium, Cypress, and test strategy development.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="case-studies">
+    <h2>Case Studies</h2>
+    <div class="case-studies">
+      <div class="case-study">
+        <h3>Retail Digital Transformation</h3>
+        <p>Enabled a global retail chain to migrate testing infrastructure to the cloud, reducing testing time by 40%.</p>
+      </div>
+      <div class="case-study">
+        <h3>CI/CD for Healthcare</h3>
+        <p>Implemented a CI/CD pipeline for a healthcare startup, improving deployment frequency by 3x.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials">
+      <div class="testimonial">
+        <h3>Acme Corp</h3>
+        <p>"Cloudpath helped us scale our QA efforts and improve quality metrics across the board."</p>
+      </div>
+      <div class="testimonial">
+        <h3>BetaSoft</h3>
+        <p>"Their automation and performance testing expertise made a huge impact on our release cycle."</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Let’s start your digital transformation journey together. Reach out to our team today.</p>
+    <p>Email: <a href="mailto:info@cloudpathconsulting.com">info@cloudpathconsulting.com</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Cloudpath IT Consulting. All rights reserved.</p>
+  </footer>
+</body>
+</html>
